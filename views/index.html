@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👋</title>
+</head>
+<body>
+    Pramesti Hatta K. (Jakarta, Indonesia)<br><br>
+    Working on computer stuffs. Doing software, system & data.
+    <ul>
+        {{range .Exps}}
+            {{if ne .Site ""}}
+            <li>{{.Year}}, <a href={{.Site}}>{{.Company}}</a>.</li>
+            {{else}}
+            <li>{{.Year}}, {{.Company}}.</li>
+            {{end}}
+        {{end}}
+    </ul>
+
+    Yes this is my personal site. You won't find interactive beautiful UI here cause I just can't do CSS & JavaScript.<br><br>
+    "If I was stranded on an island and the only way to get off that island was the make a pretty UI, I'd die there." - Linus Torvalds
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQ107LRBBN"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WQ107LRBBN');
+    </script>
+</body>
+</html>
