@@ -14,10 +14,10 @@ RUN go mod download
 COPY . .
 
 # Build the Go application
-RUN go build -o pramestihattak.com
+RUN go build -o pramestihattak
 
 # Expose the desired port
 EXPOSE 8080
 
 # Define the command to run the application
-CMD ["./pramestihattak.com"]
+CMD ["./pramestihattak"]
