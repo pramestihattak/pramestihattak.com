@@ -43,11 +43,11 @@ func handler(w http.ResponseWriter, r *http.Request) {
 			Company: "Misete Solusi Teknologi",
 		},
 		{
-			Year:    "2016 - 2021",
+			Year:    "2015 - 2016",
 			Company: "Tulpar Asia Digital",
 		},
 		{
-			Year:    "2015 - 2015",
+			Year:    "2016 - 2021",
 			Company: "Tech in Asia",
 			Site:    "https://id.techinasia.com",
 		},
