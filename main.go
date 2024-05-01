@@ -52,9 +52,14 @@ func handler(w http.ResponseWriter, r *http.Request) {
 			Site:    "https://id.techinasia.com",
 		},
 		{
-			Year:    "2021 - Now",
+			Year:    "2021 - 2024",
 			Company: "Brankas",
 			Site:    "https://brankas.com",
+		},
+		{
+			Year:    "2024 - Now",
+			Company: "SawitPRO",
+			Site:    "https://sawitpro.com",
 		},
 	}
 
